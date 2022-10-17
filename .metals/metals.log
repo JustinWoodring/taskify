@@ -1,0 +1,832 @@
+2022.10.12 13:05:55 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/lsp.trace.json or /home/justin/.cache/metals/lsp.trace.json
+2022.10.12 13:05:56 INFO  logging to file /home/justin/Documents/CodeProjects/taskify/.metals/metals.log
+2022.10.12 13:05:56 INFO  Started: Metals version 0.11.9 in workspace '/home/justin/Documents/CodeProjects/taskify' for client Visual Studio Code 1.72.1.
+2022.10.12 13:05:56 INFO  time: initialize in 0.65s
+2022.10.12 13:05:57 WARN  Build server is not auto-connectable.
+2022.10.12 13:06:14 INFO  running '/home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals15738009706288288045/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.12 13:06:14 WARN  no build target for: /home/justin/Documents/CodeProjects/taskify/project/project/metals.sbt
+2022.10.12 13:06:14 WARN  no build target for: /home/justin/Documents/CodeProjects/taskify/project/metals.sbt
+2022.10.12 13:06:14 INFO  skipping build import with status 'Started'
+2022.10.12 13:06:16 INFO  [info] Loading global plugins from /home/justin/.sbt/1.0/plugins
+2022.10.12 13:06:17 INFO  no build target found for /home/justin/Documents/CodeProjects/taskify/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.12 13:06:17 INFO  [info] Loading settings for project taskify-build-build-build from metals.sbt ...
+2022.10.12 13:06:17 INFO  [info] Loading project definition from /home/justin/Documents/CodeProjects/taskify/project/project/project
+2022.10.12 13:06:19 INFO  [info] Loading settings for project taskify-build-build from metals.sbt ...
+2022.10.12 13:06:19 INFO  [info] Loading project definition from /home/justin/Documents/CodeProjects/taskify/project/project
+2022.10.12 13:06:21 INFO  [success] Generated .bloop/taskify-build-build.json
+2022.10.12 13:06:21 INFO  [success] Total time: 3 s, completed Oct 12, 2022, 1:06:21 PM
+2022.10.12 13:06:21 INFO  [info] Loading settings for project taskify-build from metals.sbt,plugins.sbt ...
+2022.10.12 13:06:21 INFO  [info] Loading project definition from /home/justin/Documents/CodeProjects/taskify/project
+2022.10.12 13:06:23 INFO  [success] Generated .bloop/taskify-build.json
+2022.10.12 13:06:23 INFO  [success] Total time: 1 s, completed Oct 12, 2022, 1:06:23 PM
+2022.10.12 13:06:25 INFO  [info] Loading settings for project taskify from build.sbt ...
+2022.10.12 13:06:25 INFO  [info] Set current project to taskify (in build file:/home/justin/Documents/CodeProjects/taskify/)
+2022.10.12 13:06:25 INFO  [success] Generated .bloop/taskify-test.json
+2022.10.12 13:06:25 INFO  [success] Generated .bloop/taskify.json
+2022.10.12 13:06:25 INFO  [success] Total time: 0 s, completed Oct 12, 2022, 1:06:25 PM
+2022.10.12 13:06:25 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.10.12 13:06:25 INFO  Attempting to connect to the build server...
+2022.10.12 13:06:25 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.12 13:06:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.12 13:06:33 INFO  Attempting to connect to the build server...
+2022.10.12 13:06:33 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.12 13:06:33 INFO  Attempting to connect to the build server...
+2022.10.12 13:06:33 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.12 13:06:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.12 13:06:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.12 13:06:36 INFO  time: Connected to build server in 11s
+2022.10.12 13:06:36 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.12 13:06:41 INFO  time: indexed workspace in 4.42s
+2022.10.12 13:06:43 INFO  Generated JavaScript file '/home/justin/Documents/CodeProjects/taskify/.bloop/taskify/taskify-test.js'
+2022.10.12 13:07:18 INFO  compiling taskify (5 scala sources)
+2022.10.12 13:07:26 INFO  time: compiled taskify in 7.55s
+Oct 12, 2022 1:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:877)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:366)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:337)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:418)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Oct 12, 2022 1:12:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:12:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:12:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:12:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:12:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:12:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:13:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:13:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:13:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:13:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:13:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:13:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:13:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:14:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:17:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:17:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:17:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2022 1:17:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.12 13:43:56 INFO  Cancelling compilation on Bloop server
+2022.10.12 13:43:56 INFO  Cancelling compilation on Bloop server
+2022.10.12 13:43:56 INFO  Cancelling compilation on Bloop server
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@78c24548[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 5555]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@78c24548[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 5555]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@78c24548[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 5555]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.10.13 14:32:50 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/lsp.trace.json or /home/justin/.cache/metals/lsp.trace.json
+2022.10.13 14:32:51 INFO  logging to file /home/justin/Documents/CodeProjects/taskify/.metals/metals.log
+2022.10.13 14:32:51 INFO  Started: Metals version 0.11.9 in workspace '/home/justin/Documents/CodeProjects/taskify' for client Visual Studio Code 1.72.1.
+2022.10.13 14:32:51 INFO  time: initialize in 0.69s
+2022.10.13 14:32:52 INFO  Attempting to connect to the build server...
+2022.10.13 14:32:52 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:32:51 INFO  skipping build import with status 'Installed'
+2022.10.13 14:32:54 INFO  no build target found for /home/justin/Documents/CodeProjects/taskify/src/main/scala/com/justinwoodring/components/TasksManager.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.13 14:32:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:32:55 INFO  Attempting to connect to the build server...
+2022.10.13 14:32:55 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:32:55 INFO  Attempting to connect to the build server...
+2022.10.13 14:32:55 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:32:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:32:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:32:55 INFO  time: Connected to build server in 2.64s
+2022.10.13 14:32:55 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.13 14:32:56 INFO  time: code lens generation in 3.05s
+2022.10.13 14:32:57 INFO  time: indexed workspace in 2.13s
+2022.10.13 14:32:57 INFO  compiling taskify (5 scala sources)
+2022.10.13 14:32:59 INFO  Generated JavaScript file '/home/justin/Documents/CodeProjects/taskify/.bloop/taskify/taskify-test.js'
+2022.10.13 14:33:02 INFO  compiling taskify-test (1 scala source)
+2022.10.13 14:33:02 INFO  time: compiled taskify in 4.78s
+2022.10.13 14:33:02 WARN  there was one deprecation warning (since 3.1.0); re-run with -deprecation for details
+2022.10.13 14:33:02 INFO  time: compiled taskify-test in 0.33s
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17bd54f4[Shutting down, pool size = 17, active threads = 3, queued tasks = 0, completed tasks = 428]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17bd54f4[Shutting down, pool size = 3, active threads = 2, queued tasks = 0, completed tasks = 429]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17bd54f4[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 429]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.10.13 14:35:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/lsp.trace.json or /home/justin/.cache/metals/lsp.trace.json
+2022.10.13 14:35:54 INFO  logging to file /home/justin/Documents/CodeProjects/taskify/.metals/metals.log
+2022.10.13 14:35:54 INFO  Started: Metals version 0.11.9 in workspace '/home/justin/Documents/CodeProjects/taskify' for client Visual Studio Code 1.72.1.
+2022.10.13 14:35:55 INFO  time: initialize in 0.78s
+2022.10.13 14:35:55 INFO  Attempting to connect to the build server...
+2022.10.13 14:35:55 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:35:55 INFO  skipping build import with status 'Installed'
+2022.10.13 14:35:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:35:58 INFO  Attempting to connect to the build server...
+2022.10.13 14:35:58 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:35:58 INFO  Attempting to connect to the build server...
+2022.10.13 14:35:58 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:35:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:35:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:35:58 INFO  time: Connected to build server in 2.64s
+2022.10.13 14:35:58 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.13 14:35:58 INFO  no build target found for /home/justin/Documents/CodeProjects/taskify/src/main/scala/com/justinwoodring/components/TasksManager.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.13 14:35:58 INFO  time: code lens generation in 2.19s
+2022.10.13 14:36:00 INFO  time: indexed workspace in 1.28s
+2022.10.13 14:36:02 INFO  Generated JavaScript file '/home/justin/Documents/CodeProjects/taskify/.bloop/taskify/taskify-test.js'
+Oct 13, 2022 2:37:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:37:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:37:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:40:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:40:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:40:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:40:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:41:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:41:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:41:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:41:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:41:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:41:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:43:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:43:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:43:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:43:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:43:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:44:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.13 14:44:55 INFO  shutting down Metals
+2022.10.13 14:44:55 INFO  Shut down connection with build server.
+2022.10.13 14:44:55 INFO  Shut down connection with build server.
+Oct 13, 2022 2:44:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:26)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:26)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:26)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.cancel(MetalsLanguageServer.scala:137)
+	at scala.meta.internal.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:1039)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 39 more
+
+2022.10.13 14:44:55 INFO  Cancelling compilation on Bloop server
+2022.10.13 14:45:01 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/lsp.trace.json or /home/justin/.cache/metals/lsp.trace.json
+2022.10.13 14:45:01 INFO  logging to file /home/justin/Documents/CodeProjects/taskify/.metals/metals.log
+2022.10.13 14:45:01 INFO  Started: Metals version 0.11.9 in workspace '/home/justin/Documents/CodeProjects/taskify' for client Visual Studio Code 1.72.1.
+2022.10.13 14:45:02 INFO  time: initialize in 0.73s
+2022.10.13 14:45:02 INFO  Attempting to connect to the build server...
+2022.10.13 14:45:02 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:45:03 INFO  skipping build import with status 'Installed'
+2022.10.13 14:45:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:45:03 INFO  Attempting to connect to the build server...
+2022.10.13 14:45:03 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:45:03 INFO  Attempting to connect to the build server...
+2022.10.13 14:45:03 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:45:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:45:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:45:03 INFO  time: Connected to build server in 0.27s
+2022.10.13 14:45:03 INFO  Connected to Build server: Bloop v1.5.4
+Oct 13, 2022 2:45:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.13 14:45:05 INFO  time: indexed workspace in 1.71s
+2022.10.13 14:45:06 INFO  Generated JavaScript file '/home/justin/Documents/CodeProjects/taskify/.bloop/taskify/taskify-test.js'
+Oct 13, 2022 2:45:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:45:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:45:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:45:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:45:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:45:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:45:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:45:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:46:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:47:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:47:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:50:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:51:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:51:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.13 14:51:26 INFO  shutting down Metals
+2022.10.13 14:51:26 INFO  Shut down connection with build server.
+2022.10.13 14:51:26 INFO  Shut down connection with build server.
+2022.10.13 14:51:26 INFO  Shut down connection with build server.
+Oct 13, 2022 2:51:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2022.10.13 14:51:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/lsp.trace.json or /home/justin/.cache/metals/lsp.trace.json
+2022.10.13 14:51:32 INFO  logging to file /home/justin/Documents/CodeProjects/taskify/.metals/metals.log
+2022.10.13 14:51:32 INFO  Started: Metals version 0.11.9 in workspace '/home/justin/Documents/CodeProjects/taskify' for client Visual Studio Code 1.72.1.
+2022.10.13 14:51:33 INFO  time: initialize in 0.7s
+2022.10.13 14:51:33 INFO  Attempting to connect to the build server...
+2022.10.13 14:51:33 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:51:33 INFO  skipping build import with status 'Installed'
+2022.10.13 14:51:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:51:34 INFO  Attempting to connect to the build server...
+2022.10.13 14:51:34 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:51:34 INFO  Attempting to connect to the build server...
+2022.10.13 14:51:34 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.13 14:51:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:51:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.13 14:51:34 INFO  time: Connected to build server in 0.26s
+2022.10.13 14:51:34 INFO  Connected to Build server: Bloop v1.5.4
+Oct 13, 2022 2:51:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.13 14:51:35 INFO  time: indexed workspace in 1.65s
+2022.10.13 14:51:37 INFO  Generated JavaScript file '/home/justin/Documents/CodeProjects/taskify/.bloop/taskify/taskify-test.js'
+Oct 13, 2022 2:51:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:51:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:51:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:51:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:53:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.jar
+Oct 13, 2022 2:54:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:54:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:55:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:56:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:56:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 2:56:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:15:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:15:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:16:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:16:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:20:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:20:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:21:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:22:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:22:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:22:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:22:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:22:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:22:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:22:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:22:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:23:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 620
+Oct 13, 2022 3:23:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:23:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:23:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 639
+Oct 13, 2022 3:23:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:24:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:24:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:24:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:24:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:24:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:25:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:25:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:25:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:25:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:26:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2022 3:26:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+2022.10.13 15:31:49 INFO  Cancelling compilation on Bloop server
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@454c6718[Shutting down, pool size = 18, active threads = 3, queued tasks = 0, completed tasks = 9337]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@454c6718[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 9337]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@454c6718[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 9337]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.10.14 21:40:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/lsp.trace.json or /home/justin/.cache/metals/lsp.trace.json
+2022.10.14 21:40:11 INFO  logging to file /home/justin/Documents/CodeProjects/taskify/.metals/metals.log
+2022.10.14 21:40:11 INFO  Started: Metals version 0.11.9 in workspace '/home/justin/Documents/CodeProjects/taskify' for client Visual Studio Code 1.72.1.
+2022.10.14 21:40:12 INFO  time: initialize in 1.38s
+2022.10.14 21:40:14 INFO  Attempting to connect to the build server...
+2022.10.14 21:40:14 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.14 21:40:14 INFO  skipping build import with status 'Installed'
+2022.10.14 21:40:18 INFO  no build target found for /home/justin/Documents/CodeProjects/taskify/src/main/scala/com/justinwoodring/components/TasksManager.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.14 21:40:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.14 21:40:18 INFO  Attempting to connect to the build server...
+2022.10.14 21:40:18 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.14 21:40:18 INFO  Attempting to connect to the build server...
+2022.10.14 21:40:18 INFO  Bloop uses /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1 defined at /home/justin/.bloop/bloop.json
+2022.10.14 21:40:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.14 21:40:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/justin/Documents/CodeProjects/taskify/project/project/.metals/bsp.trace.json or /home/justin/.cache/metals/bsp.trace.json
+2022.10.14 21:40:18 INFO  time: Connected to build server in 4.46s
+2022.10.14 21:40:18 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.14 21:40:18 INFO  time: Imported build in 0.18s
+2022.10.14 21:40:20 INFO  time: code lens generation in 5.53s
+2022.10.14 21:40:22 INFO  no build target found for /home/justin/Documents/CodeProjects/taskify/src/main/scala/com/justinwoodring/components/TasksManager.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.14 21:40:22 INFO  time: indexed workspace in 3.94s
+2022.10.14 21:40:23 INFO  compiling taskify (1 scala source)
+2022.10.14 21:40:26 INFO  Generated JavaScript file '/home/justin/Documents/CodeProjects/taskify/.bloop/taskify/taskify-test.js'
+2022.10.14 21:40:31 INFO  time: compiled taskify in 7.76s
+Oct 15, 2022 5:00:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 15, 2022 5:00:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 15, 2022 5:02:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%25252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1%2B1/lib/src.zip%21/java.base/java/util/UUID.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "/*\n * Copyright (c) 2003, 2014, Oracle and/or its affiliates. All rights reserved.\n * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.\n *\n * This code is free software; you can redistribute it and/or modify it\n * under the terms of the GNU General Public License version 2 only, as\n * published by the Free Software Foundation.  Oracle designates this\n * particular file as subject to the \"Classpath\" exception as provided\n * by Oracle in the LICENSE file that accompanied this code.\n *\n * This code is distributed in the hope that it will be useful, but WITHOUT\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n * version 2 for more details (a copy is included in the LICENSE file that\n * accompanied this code).\n *\n * You should have received a copy of the GNU General Public License version\n * 2 along with this work; if not, write to the Free Software Foundation,\n * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.\n *\n * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA\n * or visit www.oracle.com if you need additional information or have any\n * questions.\n */\n\npackage java.util;\n\nimport java.security.*;\n\nimport jdk.internal.misc.JavaLangAccess;\nimport jdk.internal.misc.SharedSecrets;\n\n/**\n * A class that represents an immutable universally unique identifier (UUID).\n * A UUID represents a 128-bit value.\n *\n * \u003cp\u003e There exist different variants of these global identifiers.  The methods\n * of this class are for manipulating the Leach-Salz variant, although the\n * constructors allow the creation of any variant of UUID (described below).\n *\n * \u003cp\u003e The layout of a variant 2 (Leach-Salz) UUID is as follows:\n *\n * The most significant long consists of the following unsigned fields:\n * \u003cpre\u003e\n * 0xFFFFFFFF00000000 time_low\n * 0x00000000FFFF0000 time_mid\n * 0x000000000000F000 version\n * 0x0000000000000FFF time_hi\n * \u003c/pre\u003e\n * The least significant long consists of the following unsigned fields:\n * \u003cpre\u003e\n * 0xC000000000000000 variant\n * 0x3FFF000000000000 clock_seq\n * 0x0000FFFFFFFFFFFF node\n * \u003c/pre\u003e\n *\n * \u003cp\u003e The variant field contains a value which identifies the layout of the\n * {@code UUID}.  The bit layout described above is valid only for a {@code\n * UUID} with a variant value of 2, which indicates the Leach-Salz variant.\n *\n * \u003cp\u003e The version field holds a value that describes the type of this {@code\n * UUID}.  There are four different basic types of UUIDs: time-based, DCE\n * security, name-based, and randomly generated UUIDs.  These types have a\n * version value of 1, 2, 3 and 4, respectively.\n *\n * \u003cp\u003e For more information including algorithms used to create {@code UUID}s,\n * see \u003ca href\u003d\"http://www.ietf.org/rfc/rfc4122.txt\"\u003e \u003ci\u003eRFC\u0026nbsp;4122: A\n * Universally Unique IDentifier (UUID) URN Namespace\u003c/i\u003e\u003c/a\u003e, section 4.2\n * \u0026quot;Algorithms for Creating a Time-Based UUID\u0026quot;.\n *\n * @since   1.5\n */\npublic final class UUID implements java.io.Serializable, Comparable\u003cUUID\u003e {\n\n    /**\n     * Explicit serialVersionUID for interoperability.\n     */\n    private static final long serialVersionUID \u003d -4856846361193249489L;\n\n    /*\n     * The most significant 64 bits of this UUID.\n     *\n     * @serial\n     */\n    private final long mostSigBits;\n\n    /*\n     * The least significant 64 bits of this UUID.\n     *\n     * @serial\n     */\n    private final long leastSigBits;\n\n    private static final JavaLangAccess jla \u003d SharedSecrets.getJavaLangAccess();\n\n    /*\n     * The random number generator used by this class to create random\n     * based UUIDs. In a holder class to defer initialization until needed.\n     */\n    private static class Holder {\n        static final SecureRandom numberGenerator \u003d new SecureRandom();\n    }\n\n    // Constructors and Factories\n\n    /*\n     * Private constructor which uses a byte array to construct the new UUID.\n     */\n    private UUID(byte[] data) {\n        long msb \u003d 0;\n        long lsb \u003d 0;\n        assert data.length \u003d\u003d 16 : \"data must be 16 bytes in length\";\n        for (int i\u003d0; i\u003c8; i++)\n            msb \u003d (msb \u003c\u003c 8) | (data[i] \u0026 0xff);\n        for (int i\u003d8; i\u003c16; i++)\n            lsb \u003d (lsb \u003c\u003c 8) | (data[i] \u0026 0xff);\n        this.mostSigBits \u003d msb;\n        this.leastSigBits \u003d lsb;\n    }\n\n    /**\n     * Constructs a new {@code UUID} using the specified data.  {@code\n     * mostSigBits} is used for the most significant 64 bits of the {@code\n     * UUID} and {@code leastSigBits} becomes the least significant 64 bits of\n     * the {@code UUID}.\n     *\n     * @param  mostSigBits\n     *         The most significant bits of the {@code UUID}\n     *\n     * @param  leastSigBits\n     *         The least significant bits of the {@code UUID}\n     */\n    public UUID(long mostSigBits, long leastSigBits) {\n        this.mostSigBits \u003d mostSigBits;\n        this.leastSigBits \u003d leastSigBits;\n    }\n\n    /**\n     * Static factory to retrieve a type 4 (pseudo randomly generated) UUID.\n     *\n     * The {@code UUID} is generated using a cryptographically strong pseudo\n     * random number generator.\n     *\n     * @return  A randomly generated {@code UUID}\n     */\n    public static UUID randomUUID() {\n        SecureRandom ng \u003d Holder.numberGenerator;\n\n        byte[] randomBytes \u003d new byte[16];\n        ng.nextBytes(randomBytes);\n        randomBytes[6]  \u0026\u003d 0x0f;  /* clear version        */\n        randomBytes[6]  |\u003d 0x40;  /* set to version 4     */\n        randomBytes[8]  \u0026\u003d 0x3f;  /* clear variant        */\n        randomBytes[8]  |\u003d 0x80;  /* set to IETF variant  */\n        return new UUID(randomBytes);\n    }\n\n    /**\n     * Static factory to retrieve a type 3 (name based) {@code UUID} based on\n     * the specified byte array.\n     *\n     * @param  name\n     *         A byte array to be used to construct a {@code UUID}\n     *\n     * @return  A {@code UUID} generated from the specified array\n     */\n    public static UUID nameUUIDFromBytes(byte[] name) {\n        MessageDigest md;\n        try {\n            md \u003d MessageDigest.getInstance(\"MD5\");\n        } catch (NoSuchAlgorithmException nsae) {\n            throw new InternalError(\"MD5 not supported\", nsae);\n        }\n        byte[] md5Bytes \u003d md.digest(name);\n        md5Bytes[6]  \u0026\u003d 0x0f;  /* clear version        */\n        md5Bytes[6]  |\u003d 0x30;  /* set to version 3     */\n        md5Bytes[8]  \u0026\u003d 0x3f;  /* clear variant        */\n        md5Bytes[8]  |\u003d 0x80;  /* set to IETF variant  */\n        return new UUID(md5Bytes);\n    }\n\n    /**\n     * Creates a {@code UUID} from the string standard representation as\n     * described in the {@link #toString} method.\n     *\n     * @param  name\n     *         A string that specifies a {@code UUID}\n     *\n     * @return  A {@code UUID} with the specified value\n     *\n     * @throws  IllegalArgumentException\n     *          If name does not conform to the string representation as\n     *          described in {@link #toString}\n     *\n     */\n    public static UUID fromString(String name) {\n        int len \u003d name.length();\n        if (len \u003e 36) {\n            throw new IllegalArgumentException(\"UUID string too large\");\n        }\n\n        int dash1 \u003d name.indexOf(\u0027-\u0027, 0);\n        int dash2 \u003d name.indexOf(\u0027-\u0027, dash1 + 1);\n        int dash3 \u003d name.indexOf(\u0027-\u0027, dash2 + 1);\n        int dash4 \u003d name.indexOf(\u0027-\u0027, dash3 + 1);\n        int dash5 \u003d name.indexOf(\u0027-\u0027, dash4 + 1);\n\n        // For any valid input, dash1 through dash4 will be positive and dash5\n        // negative, but it\u0027s enough to check dash4 and dash5:\n        // - if dash1 is -1, dash4 will be -1\n        // - if dash1 is positive but dash2 is -1, dash4 will be -1\n        // - if dash1 and dash2 is positive, dash3 will be -1, dash4 will be\n        //   positive, but so will dash5\n        if (dash4 \u003c 0 || dash5 \u003e\u003d 0) {\n            throw new IllegalArgumentException(\"Invalid UUID string: \" + name);\n        }\n\n        long mostSigBits \u003d Long.parseLong(name, 0, dash1, 16) \u0026 0xffffffffL;\n        mostSigBits \u003c\u003c\u003d 16;\n        mostSigBits |\u003d Long.parseLong(name, dash1 + 1, dash2, 16) \u0026 0xffffL;\n        mostSigBits \u003c\u003c\u003d 16;\n        mostSigBits |\u003d Long.parseLong(name, dash2 + 1, dash3, 16) \u0026 0xffffL;\n        long leastSigBits \u003d Long.parseLong(name, dash3 + 1, dash4, 16) \u0026 0xffffL;\n        leastSigBits \u003c\u003c\u003d 48;\n        leastSigBits |\u003d Long.parseLong(name, dash4 + 1, len, 16) \u0026 0xffffffffffffL;\n\n        return new UUID(mostSigBits, leastSigBits);\n    }\n\n    // Field Accessor Methods\n\n    /**\n     * Returns the least significant 64 bits of this UUID\u0027s 128 bit value.\n     *\n     * @return  The least significant 64 bits of this UUID\u0027s 128 bit value\n     */\n    public long getLeastSignificantBits() {\n        return leastSigBits;\n    }\n\n    /**\n     * Returns the most significant 64 bits of this UUID\u0027s 128 bit value.\n     *\n     * @return  The most significant 64 bits of this UUID\u0027s 128 bit value\n     */\n    public long getMostSignificantBits() {\n        return mostSigBits;\n    }\n\n    /**\n     * The version number associated with this {@code UUID}.  The version\n     * number describes how this {@code UUID} was generated.\n     *\n     * The version number has the following meaning:\n     * \u003cul\u003e\n     * \u003cli\u003e1    Time-based UUID\n     * \u003cli\u003e2    DCE security UUID\n     * \u003cli\u003e3    Name-based UUID\n     * \u003cli\u003e4    Randomly generated UUID\n     * \u003c/ul\u003e\n     *\n     * @return  The version number of this {@code UUID}\n     */\n    public int version() {\n        // Version is bits masked by 0x000000000000F000 in MS long\n        return (int)((mostSigBits \u003e\u003e 12) \u0026 0x0f);\n    }\n\n    /**\n     * The variant number associated with this {@code UUID}.  The variant\n     * number describes the layout of the {@code UUID}.\n     *\n     * The variant number has the following meaning:\n     * \u003cul\u003e\n     * \u003cli\u003e0    Reserved for NCS backward compatibility\n     * \u003cli\u003e2    \u003ca href\u003d\"http://www.ietf.org/rfc/rfc4122.txt\"\u003eIETF\u0026nbsp;RFC\u0026nbsp;4122\u003c/a\u003e\n     * (Leach-Salz), used by this class\n     * \u003cli\u003e6    Reserved, Microsoft Corporation backward compatibility\n     * \u003cli\u003e7    Reserved for future definition\n     * \u003c/ul\u003e\n     *\n     * @return  The variant number of this {@code UUID}\n     */\n    public int variant() {\n        // This field is composed of a varying number of bits.\n        // 0    -    -    Reserved for NCS backward compatibility\n        // 1    0    -    The IETF aka Leach-Salz variant (used by this class)\n        // 1    1    0    Reserved, Microsoft backward compatibility\n        // 1    1    1    Reserved for future definition.\n        return (int) ((leastSigBits \u003e\u003e\u003e (64 - (leastSigBits \u003e\u003e\u003e 62)))\n                      \u0026 (leastSigBits \u003e\u003e 63));\n    }\n\n    /**\n     * The timestamp value associated with this UUID.\n     *\n     * \u003cp\u003e The 60 bit timestamp value is constructed from the time_low,\n     * time_mid, and time_hi fields of this {@code UUID}.  The resulting\n     * timestamp is measured in 100-nanosecond units since midnight,\n     * October 15, 1582 UTC.\n     *\n     * \u003cp\u003e The timestamp value is only meaningful in a time-based UUID, which\n     * has version type 1.  If this {@code UUID} is not a time-based UUID then\n     * this method throws UnsupportedOperationException.\n     *\n     * @throws UnsupportedOperationException\n     *         If this UUID is not a version 1 UUID\n     * @return The timestamp of this {@code UUID}.\n     */\n    public long timestamp() {\n        if (version() !\u003d 1) {\n            throw new UnsupportedOperationException(\"Not a time-based UUID\");\n        }\n\n        return (mostSigBits \u0026 0x0FFFL) \u003c\u003c 48\n             | ((mostSigBits \u003e\u003e 16) \u0026 0x0FFFFL) \u003c\u003c 32\n             | mostSigBits \u003e\u003e\u003e 32;\n    }\n\n    /**\n     * The clock sequence value associated with this UUID.\n     *\n     * \u003cp\u003e The 14 bit clock sequence value is constructed from the clock\n     * sequence field of this UUID.  The clock sequence field is used to\n     * guarantee temporal uniqueness in a time-based UUID.\n     *\n     * \u003cp\u003e The {@code clockSequence} value is only meaningful in a time-based\n     * UUID, which has version type 1.  If this UUID is not a time-based UUID\n     * then this method throws UnsupportedOperationException.\n     *\n     * @return  The clock sequence of this {@code UUID}\n     *\n     * @throws  UnsupportedOperationException\n     *          If this UUID is not a version 1 UUID\n     */\n    public int clockSequence() {\n        if (version() !\u003d 1) {\n            throw new UnsupportedOperationException(\"Not a time-based UUID\");\n        }\n\n        return (int)((leastSigBits \u0026 0x3FFF000000000000L) \u003e\u003e\u003e 48);\n    }\n\n    /**\n     * The node value associated with this UUID.\n     *\n     * \u003cp\u003e The 48 bit node value is constructed from the node field of this\n     * UUID.  This field is intended to hold the IEEE 802 address of the machine\n     * that generated this UUID to guarantee spatial uniqueness.\n     *\n     * \u003cp\u003e The node value is only meaningful in a time-based UUID, which has\n     * version type 1.  If this UUID is not a time-based UUID then this method\n     * throws UnsupportedOperationException.\n     *\n     * @return  The node value of this {@code UUID}\n     *\n     * @throws  UnsupportedOperationException\n     *          If this UUID is not a version 1 UUID\n     */\n    public long node() {\n        if (version() !\u003d 1) {\n            throw new UnsupportedOperationException(\"Not a time-based UUID\");\n        }\n\n        return leastSigBits \u0026 0x0000FFFFFFFFFFFFL;\n    }\n\n    // Object Inherited Methods\n\n    /**\n     * Returns a {@code String} object representing this {@code UUID}.\n     *\n     * \u003cp\u003e The UUID string representation is as described by this BNF:\n     * \u003cblockquote\u003e\u003cpre\u003e\n     * {@code\n     * UUID                   \u003d \u003ctime_low\u003e \"-\" \u003ctime_mid\u003e \"-\"\n     *                          \u003ctime_high_and_version\u003e \"-\"\n     *                          \u003cvariant_and_sequence\u003e \"-\"\n     *                          \u003cnode\u003e\n     * time_low               \u003d 4*\u003chexOctet\u003e\n     * time_mid               \u003d 2*\u003chexOctet\u003e\n     * time_high_and_version  \u003d 2*\u003chexOctet\u003e\n     * variant_and_sequence   \u003d 2*\u003chexOctet\u003e\n     * node                   \u003d 6*\u003chexOctet\u003e\n     * hexOctet               \u003d \u003chexDigit\u003e\u003chexDigit\u003e\n     * hexDigit               \u003d\n     *       \"0\" | \"1\" | \"2\" | \"3\" | \"4\" | \"5\" | \"6\" | \"7\" | \"8\" | \"9\"\n     *       | \"a\" | \"b\" | \"c\" | \"d\" | \"e\" | \"f\"\n     *       | \"A\" | \"B\" | \"C\" | \"D\" | \"E\" | \"F\"\n     * }\u003c/pre\u003e\u003c/blockquote\u003e\n     *\n     * @return  A string representation of this {@code UUID}\n     */\n    public String toString() {\n        return jla.fastUUID(leastSigBits, mostSigBits);\n    }\n\n    /**\n     * Returns a hash code for this {@code UUID}.\n     *\n     * @return  A hash code value for this {@code UUID}\n     */\n    public int hashCode() {\n        long hilo \u003d mostSigBits ^ leastSigBits;\n        return ((int)(hilo \u003e\u003e 32)) ^ (int) hilo;\n    }\n\n    /**\n     * Compares this object to the specified object.  The result is {@code\n     * true} if and only if the argument is not {@code null}, is a {@code UUID}\n     * object, has the same variant, and contains the same value, bit for bit,\n     * as this {@code UUID}.\n     *\n     * @param  obj\n     *         The object to be compared\n     *\n     * @return  {@code true} if the objects are the same; {@code false}\n     *          otherwise\n     */\n    public boolean equals(Object obj) {\n        if ((null \u003d\u003d obj) || (obj.getClass() !\u003d UUID.class))\n            return false;\n        UUID id \u003d (UUID)obj;\n        return (mostSigBits \u003d\u003d id.mostSigBits \u0026\u0026\n                leastSigBits \u003d\u003d id.leastSigBits);\n    }\n\n    // Comparison Operations\n\n    /**\n     * Compares this UUID with the specified UUID.\n     *\n     * \u003cp\u003e The first of two UUIDs is greater than the second if the most\n     * significant field in which the UUIDs differ is greater for the first\n     * UUID.\n     *\n     * @param  val\n     *         {@code UUID} to which this {@code UUID} is to be compared\n     *\n     * @return  -1, 0 or 1 as this {@code UUID} is less than, equal to, or\n     *          greater than {@code val}\n     *\n     */\n    public int compareTo(UUID val) {\n        // The ordering is intentionally set up so that the UUIDs\n        // can simply be numerically compared as two numbers\n        return (this.mostSigBits \u003c val.mostSigBits ? -1 :\n                (this.mostSigBits \u003e val.mostSigBits ? 1 :\n                 (this.leastSigBits \u003c val.leastSigBits ? -1 :\n                  (this.leastSigBits \u003e val.leastSigBits ? 1 :\n                   0))));\n    }\n}\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1/lib/src.zip
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:123)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:109)
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:337)
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:286)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:112)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:139)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:137)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:1077)
+	... 16 more
+
+Oct 15, 2022 5:02:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%25252B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1%2B1/lib/src.zip%21/java.base/java/util/UUID.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: /home/justin/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.16.1_1.tar.gz/jdk-11.0.16.1+1/lib/src.zip
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:123)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:109)
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:337)
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:286)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:112)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:139)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:137)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didClose(MetalsLanguageServer.scala:1253)
+	... 16 more
+
+Oct 15, 2022 5:02:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 15, 2022 5:02:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Oct 15, 2022 5:02:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+Oct 15, 2022 5:02:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+Oct 15, 2022 5:03:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2022.10.15 17:05:30 INFO  time: code lens generation in 3.63s
+2022.10.15 17:05:30 INFO  time: code lens generation in 1.55s
+Oct 15, 2022 5:14:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 15, 2022 5:14:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 15, 2022 5:14:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

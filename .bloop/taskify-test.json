@@ -1,0 +1,529 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "taskify-test",
+        "directory": "/home/justin/Documents/CodeProjects/taskify",
+        "workspaceDir": "/home/justin/Documents/CodeProjects/taskify",
+        "sources": [
+            "/home/justin/Documents/CodeProjects/taskify/src/test/scala-2.13",
+            "/home/justin/Documents/CodeProjects/taskify/src/test/scala",
+            "/home/justin/Documents/CodeProjects/taskify/src/test/java",
+            "/home/justin/Documents/CodeProjects/taskify/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies": [
+            "taskify"
+        ],
+        "classpath": [
+            "/home/justin/Documents/CodeProjects/taskify/.bloop/taskify/scala-2.13/classes",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.0.1/scalajs-library_2.13-1.0.1.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs1_2.13/0.6.5/slinky-web_sjs1_2.13-0.6.5.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-hot_sjs1_2.13/0.6.5/slinky-hot_sjs1_2.13-0.6.5.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.0.1/scalajs-test-bridge_2.13-1.0.1.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.1/scalatest_2.13-3.1.1.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-core_sjs1_2.13/0.6.5/slinky-core_sjs1_2.13-0.6.5.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/0.9.8/scalajs-dom_sjs1_2.13-0.9.8.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/1.0.1/scalajs-test-interface_2.13-1.0.1.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.1/scalactic_2.13-3.1.1.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-readwrite_sjs1_2.13/0.6.5/slinky-readwrite_sjs1_2.13-0.6.5.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+            "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+        ],
+        "out": "/home/justin/Documents/CodeProjects/taskify/.bloop/taskify",
+        "classesDir": "/home/justin/Documents/CodeProjects/taskify/.bloop/taskify/scala-2.13/test-classes",
+        "resources": [
+            "/home/justin/Documents/CodeProjects/taskify/src/test/resources",
+            "/home/justin/Documents/CodeProjects/taskify/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.1",
+            "options": [
+                "-Ymacro-annotations",
+                "-Xplugin:/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.1/1.0.1/scalajs-compiler_2.13.1-1.0.1.jar"
+            ],
+            "jars": [
+                "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+                "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "js",
+            "config": {
+                "version": "1.0.1",
+                "mode": "debug",
+                "kind": "none",
+                "emitSourceMaps": false,
+                "jsdom": false,
+                "toolchain": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jline",
+                    "name": "jline",
+                    "version": "2.14.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jline",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fusesource.jansi",
+                    "name": "jansi",
+                    "version": "1.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jansi",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+                        },
+                        {
+                            "name": "jansi",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12-sources.jar"
+                        },
+                        {
+                            "name": "jansi",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-library_2.13",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-library_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.0.1/scalajs-library_2.13-1.0.1.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.0.1/scalajs-library_2.13-1.0.1-sources.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.0.1/scalajs-library_2.13-1.0.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "me.shadaj",
+                    "name": "slinky-web_sjs1_2.13",
+                    "version": "0.6.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slinky-web_sjs1_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs1_2.13/0.6.5/slinky-web_sjs1_2.13-0.6.5.jar"
+                        },
+                        {
+                            "name": "slinky-web_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs1_2.13/0.6.5/slinky-web_sjs1_2.13-0.6.5-sources.jar"
+                        },
+                        {
+                            "name": "slinky-web_sjs1_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs1_2.13/0.6.5/slinky-web_sjs1_2.13-0.6.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "me.shadaj",
+                    "name": "slinky-hot_sjs1_2.13",
+                    "version": "0.6.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slinky-hot_sjs1_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-hot_sjs1_2.13/0.6.5/slinky-hot_sjs1_2.13-0.6.5.jar"
+                        },
+                        {
+                            "name": "slinky-hot_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-hot_sjs1_2.13/0.6.5/slinky-hot_sjs1_2.13-0.6.5-sources.jar"
+                        },
+                        {
+                            "name": "slinky-hot_sjs1_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-hot_sjs1_2.13/0.6.5/slinky-hot_sjs1_2.13-0.6.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-test-bridge_2.13",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-test-bridge_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.0.1/scalajs-test-bridge_2.13-1.0.1.jar"
+                        },
+                        {
+                            "name": "scalajs-test-bridge_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.0.1/scalajs-test-bridge_2.13-1.0.1-sources.jar"
+                        },
+                        {
+                            "name": "scalajs-test-bridge_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.0.1/scalajs-test-bridge_2.13-1.0.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.13",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.1/scalatest_2.13-3.1.1.jar"
+                        },
+                        {
+                            "name": "scalatest_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.1/scalatest_2.13-3.1.1-sources.jar"
+                        },
+                        {
+                            "name": "scalatest_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.1/scalatest_2.13-3.1.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "me.shadaj",
+                    "name": "slinky-core_sjs1_2.13",
+                    "version": "0.6.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slinky-core_sjs1_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-core_sjs1_2.13/0.6.5/slinky-core_sjs1_2.13-0.6.5.jar"
+                        },
+                        {
+                            "name": "slinky-core_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-core_sjs1_2.13/0.6.5/slinky-core_sjs1_2.13-0.6.5-sources.jar"
+                        },
+                        {
+                            "name": "slinky-core_sjs1_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-core_sjs1_2.13/0.6.5/slinky-core_sjs1_2.13-0.6.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-dom_sjs1_2.13",
+                    "version": "0.9.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-dom_sjs1_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/0.9.8/scalajs-dom_sjs1_2.13-0.9.8.jar"
+                        },
+                        {
+                            "name": "scalajs-dom_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/0.9.8/scalajs-dom_sjs1_2.13-0.9.8-sources.jar"
+                        },
+                        {
+                            "name": "scalajs-dom_sjs1_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/0.9.8/scalajs-dom_sjs1_2.13-0.9.8-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-test-interface_2.13",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-test-interface_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/1.0.1/scalajs-test-interface_2.13-1.0.1.jar"
+                        },
+                        {
+                            "name": "scalajs-test-interface_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/1.0.1/scalajs-test-interface_2.13-1.0.1-sources.jar"
+                        },
+                        {
+                            "name": "scalajs-test-interface_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/1.0.1/scalajs-test-interface_2.13-1.0.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.13",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.1/scalactic_2.13-3.1.1.jar"
+                        },
+                        {
+                            "name": "scalactic_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.1/scalactic_2.13-3.1.1-sources.jar"
+                        },
+                        {
+                            "name": "scalactic_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.1/scalactic_2.13-3.1.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "me.shadaj",
+                    "name": "slinky-readwrite_sjs1_2.13",
+                    "version": "0.6.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slinky-readwrite_sjs1_2.13",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-readwrite_sjs1_2.13/0.6.5/slinky-readwrite_sjs1_2.13-0.6.5.jar"
+                        },
+                        {
+                            "name": "slinky-readwrite_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-readwrite_sjs1_2.13/0.6.5/slinky-readwrite_sjs1_2.13-0.6.5-sources.jar"
+                        },
+                        {
+                            "name": "slinky-readwrite_sjs1_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-readwrite_sjs1_2.13/0.6.5/slinky-readwrite_sjs1_2.13-0.6.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.1",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/justin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-javadoc.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

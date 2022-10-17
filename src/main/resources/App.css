@@ -1,0 +1,131 @@
+* {
+    box-sizing:border-box;
+    transition:.05s ease-in-out;
+}
+
+.App {
+    display:flex;
+    flex-flow:column nowrap;
+    min-height:100vh;
+    color: #2E282A;
+    background: radial-gradient(circle at center, #FFFBFC,#EEE);
+}
+
+.header{
+    flex:1;
+    max-height:10em;
+    padding:2em;
+    font-variant:small-caps;
+}
+
+.header > h1{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    flex:3;
+}
+
+.main > .tasks-container {
+    width:60%;
+    margin:auto;
+}
+
+.main > .tasks-container > h2{
+    font-size:3em;
+    text-align:center;
+}
+
+.main > .tasks-container> .input{
+    font-size:2em;
+    text-align:left;
+    border-radius:.6rem;
+    padding:.4em;
+    width:100%;
+    border:0px solid transparent;
+    box-shadow: 0px 0px 5px 0px #666;
+}
+
+.main > .tasks-container> .input:focus{
+    outline: 1px solid #BEF0FF;
+    #box-shadow:0px 0px 2px 3px #6793bf;
+}
+
+.main > .tasks-container > .tasks-list {
+    background-color:white;
+    padding:1em 0em;
+    border:1px solid #ccc;
+    border-radius:.6rem;
+    margin-top:1em;
+    width:100%;
+}
+
+.main > .tasks-container > .tasks-list > .task {
+    display:flex;
+    padding:1em 1em;
+    cursor:pointer;
+    border-radius:.6rem;
+}
+
+.main > .tasks-container > .tasks-list > .task.selected {
+    box-shadow: 1px 1px 3px 0px #666;
+}
+
+.main > .tasks-container > .tasks-list > .task > .checkbox {
+    height:2em;
+    width:2em;
+    border:1px solid #ccc;
+    border-radius:.6rem;
+    display:inline-block;
+    margin:auto 0;
+    margin-right:1em;
+}
+
+.main > .tasks-container > .tasks-list > .task > .task-header{
+    display:inline-block;
+    flex:1;
+    flex-shrink:0;
+    margin:auto 0;
+}
+
+.main > .tasks-container > .tasks-list > .task.completed {
+    color: #FA4545;
+}
+
+.main > .tasks-container > .tasks-list > .task.completed > .checkbox {
+    background-color:#334;
+}
+
+.main > .tasks-container > .tasks-list > .task.completed > .task-header{
+    text-decoration:line-through;
+}
+
+.button {
+    visibility:hidden;
+    background-color:transparent;
+    color:white;
+    border-radius:.3em;
+    padding:.5em .5em;
+    border:2px solid transparent;
+    font-size:1.0rem;
+}
+
+.button.completed:hover {
+    background-color:white;
+    color:#FA4545;;
+    border-radius:.3em;
+    padding:.5em .5em;
+    border:2px solid #FA4545;
+    font-size:1.0rem;
+    cursor:pointer;
+}
+
+.button.completed {
+    visibility:visible;
+    background-color:#FA4545;
+    color:white;
+    border-radius:.3em;
+    padding:.5em .5em;
+    border:2px solid #FA4545;
+}
